@@ -1,0 +1,420 @@
+/*shell classes*/
+
+.txtfnt{ /*in use  all   */
+  font-family: Arial, Verdana;
+}
+
+.clearfix{
+  overflow: auto;
+}
+
+/*bootstrap class settings*/
+
+.row{
+
+
+}
+
+/*----Container classes---*/
+.wrapper{
+min-height: calc(100vh - 85px);
+width:960px;
+margin: 10px;
+}
+ 
+
+header {  /*in use  all   */
+  height: 95px;
+  width: 960px;
+  background-color: white;
+  border-bottom: solid gray 2px;
+  }
+
+.main{  /*in use  contact  main contant container */
+  height: 640px;
+  width: 960px;
+  background-image: url("../images/asanohapx.png"); 
+}
+.mainportfolio{
+   height: 750px;
+  width: 960px;
+  background-image: url("../images/asanohapx.png"); 
+}
+.sidebar{ /*in use  all connect tile*/
+  /*min-height: 100%;*/
+  float:right;
+}
+
+footer{    /*in all  footer container */
+  /*top:650px;*/
+  height: 85px;
+  width: 960px;
+  border-top: 8px solid #4aaaa5;
+  background-color: gray;
+  font-size: 10px;
+  color: white;
+  left: 0;
+  bottom: 0;
+}
+
+
+/*----- internal components---*/
+
+
+/*---header components all pages---*/
+
+.row{
+  width: 960px;
+}
+
+
+.name { /*in use  all header   */
+  float:left;
+  margin: 20px 0px 2px 60px;;
+  padding: 32px 25px 25px 25px;
+  text-align: center;
+  font-size: 25;
+  color: #ffffff;
+  background-color: #4aaaa5;
+}
+
+.lnk{  /*in use  all  header */
+  float:left;
+  text-decoration: none;
+  color: gray;
+}
+
+.pglink{   /*in use  all  header */
+  display: inline-block; 
+  margin:40px 0px 10px 0px;
+  padding: 0px 10px 0px 10px;
+  font-size: 14px;
+  color:gray;
+}
+.sdbrd{   /*in use  all  header */
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+
+/*--- connect components - all pages---*/
+
+.connect{   /*--- connect tile---  */
+  float:left;
+  top:60px;
+  height:120px;
+  width: 200px;
+  padding:10px;
+  margin:59px 40px 40px 110px;
+  background-color: white;
+}
+
+.hconnect{  /*--- connect header--- */
+  margin: 20px 20px 10px 20px;
+  border-bottom: solid gray 1px;
+  padding-bottom: 10px;
+  font-style: bold;
+  color:gray;
+}
+
+.mlink{      /*---ink container--- */
+  margin: 0px 20px 20px 20px;
+  padding-bottom: 40px;
+}
+.cntlnk{ /* link */
+float:left;
+margin: 3px;
+}
+
+.fdiv{     /*--- footer content--- */
+  padding: 45px 20px 20px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/*---Index page classes---*/
+.aboutcontainer{  /*content left container */
+  float:left;
+  margin:60px;
+  height:475px;
+  width:550px;
+  background-color: white;
+}
+
+
+.habout{      /*---content header--- */
+  padding:20px 20px 20px 15px;
+  border-bottom:1px solid gray;
+  margin-left: 25px;
+  width:325px;
+  font-size: 30px;
+  color:gray;
+}
+
+
+.jpic{     /*about pic */
+  float:left;
+  margin:25px;
+}
+
+.bio{     /*about text */
+     margin: 25px 25px 25px 25px;
+     padding:10px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+/*---contact page classes---*/
+
+.contactctnr{   /*in use CONTACT contact container */
+  float:left;
+  padding: 20px;
+  width: 470px;
+  background-color: white;
+  margin: 60px;
+}
+ 
+.hcontact{              /*contact container header*/
+  font-size: 30px;
+  border-bottom: solid gray 1px;
+  color: #4aaaa5;
+  padding: 10px;
+  }
+.frmlable{       /* form label */
+  color: gray;
+  font-size: 15px;
+  margin:15px;
+}
+button {      /*submit  */
+    background-color:teal;
+    color:white;
+  }
+
+/*-------portfolio page classes-------*/
+
+.portcontainer{ /*portfolio container*/
+  float:left;
+  width: 470px;
+  margin:25px;
+  height: 670px; 
+  background-color: white;
+}
+
+.hportfolio{      /*---content header--- */
+  padding:20px 20px 20px 15px;
+  border-bottom:1px solid gray;
+  margin-left: 25px;
+  font-size: 30px;
+  color:gray;
+  background-color: white;
+}
+
+
+.tile {   /*in use  PORTFOLIO tile container */
+  height: 150px;  
+  width: 200px;
+  float:left;
+  position:relative;
+  margin:15px;
+}
+.piclable {   /*in use  PORTFOLIO tile container */
+  width: 200px;
+  position:relative;
+  bottom:45px;
+  right:3px;
+  padding: 7px 0px 7px 0px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+}
+
+/*--------puesdo classes-------*/
+
+a:link{ /*in use  all   */
+  color:gray;
+  text-decoration:none;
+}
+
+a:visited{ /*in use  all   */
+  color:gray;
+  text-decoration:none;
+} 
+
+a:hover{
+  color:pink;  /*in use  all   */
+  text-decoration:underline;
+}
+
+a:active{ /*in use  all   */
+  color:yellow;
+  text-decoration:underline;
+}
+
+
+/*  media queries  */
+
+@media screen and (max-width: 980px) {
+
+.containera{
+    width: 980px
+}
+
+.main{
+    height:980px;
+    width:980px;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+header{
+  width: 980px;
+  margin-left: 50px;
+}
+
+.habout{
+  margin-left: 40px;
+}
+ .aboutcontainer{
+  margin:50px;
+  width: 450px;
+  height: 875px;
+  
+ }   
+
+.jpic{    
+  margin-left:61px;
+  height:75%;
+  width:75%;
+}
+
+.bio{
+  clear:both;
+}
+.connect{
+  margin:52px 40px 40px 10px;
+}
+
+footer{
+  width: 980px;
+  margin-left: 50px;
+}
+ .row {
+width: 960px;
+}
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 760px){ 
+.wrapper{
+width: 100%;
+margin:15px;
+}
+
+.main{
+    height:593px;
+    width:700px;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+.containera{
+  width: 720px;
+}
+header{
+  width: 720px;
+  padding-left: 50px;
+  font-size: 30px
+}
+
+.name{
+    padding: 32px 29px 13px 25px;
+}
+
+
+.habout{
+  margin-left: 40px;
+}
+ .aboutcontainer{
+  margin:20px;
+  width: 90%;
+  height: 400px;
+  padding: 10px;
+ }   
+
+.jpic{    
+  margin-left:35px;
+  height:20%;
+  width:20%;
+}
+.bio{
+  display: inline;
+}
+
+.connect{
+  clear: both;
+  margin:10px;
+  width: 100%;
+}
+
+footer{
+  width: 720px;
+  margin-left: 50px;
+
+}
+
+.row {
+width: 700px;
+
+}
+
+}
+
+
+@media screen and (max-device-width: 640px) {
+  
+.containera{
+    width: 0px;
+}
+
+.main{
+    height:0px;
+    width:0px;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+header{
+  width: 0px;
+  margin-left: 50px;
+}
+ .aboutcontainer{
+  margin:10px;
+  width: 100%;
+  height: 875px;
+  
+ }   
+.habout{
+  margin-left: 40px;
+}
+.jpic{    
+  margin-left:61px;
+  height:75%;
+  width:75%;
+}
+
+.bio{
+  clear:both;
+}
+.connect{
+  margin:52px 40px 40px 75px;
+}
+
+footer{
+  width: 0px;
+  margin-left: 50px;
+
+}
+
+}
