@@ -10,16 +10,13 @@
 
 /*bootstrap class settings*/
 
-.row{
 
-
-}
 
 /*----Container classes---*/
 .wrapper{
 min-height: calc(100vh - 85px);
 width:960px;
-margin: 10px;
+margin: 0 auto;
 }
  
 
@@ -159,7 +156,7 @@ margin: 3px;
 }
 
 .bio{     /*about text */
-     margin: 25px 25px 25px 25px;
+     margin: 25px;
      padding:10px;
     line-height: 20px;
     font-size: 15px;
@@ -254,11 +251,7 @@ a:active{ /*in use  all   */
 
 /*  media queries  */
 
-@media screen and (max-width: 980px) {
-
-.containera{
-    width: 980px
-}
+@media screen and (max-width: 980px) and (min-width:769px){
 
 .main{
     height:980px;
@@ -272,20 +265,20 @@ header{
   margin-left: 50px;
 }
 
-.habout{
-  margin-left: 40px;
-}
- .aboutcontainer{
+
+.aboutcontainer{
   margin:50px;
   width: 450px;
   height: 875px;
-  
  }   
+
+.habout{
+  margin-left: 40px;
+}
 
 .jpic{    
   margin-left:61px;
-  height:75%;
-  width:75%;
+  
 }
 
 .bio{
@@ -302,28 +295,28 @@ footer{
  .row {
 width: 960px;
 }
-
 }
 
+
 /* Small devices (tablets, 768px and up) */
-@media screen and (max-width: 760px){ 
+@media screen and (max-width: 768px) and (min-width:641px) { 
 .wrapper{
-width: 100%;
+width: 768px;
 margin:15px;
 }
 
 .main{
     height:593px;
-    width:700px;
+    width:768px;
     margin-left:50px;
     margin-right: 50px;
 }
 
 .containera{
-  width: 720px;
+  width: 768px;
 }
 header{
-  width: 720px;
+  width: 768px;
   padding-left: 50px;
   font-size: 30px
 }
@@ -338,83 +331,96 @@ header{
 }
  .aboutcontainer{
   margin:20px;
-  width: 90%;
+  width: 705;
   height: 400px;
   padding: 10px;
  }   
 
 .jpic{    
   margin-left:35px;
-  height:20%;
-  width:20%;
 }
 .bio{
   display: inline;
 }
 
 .connect{
-  clear: both;
+  float:left;
   margin:10px;
-  width: 100%;
+  width: 705px;
 }
 
 footer{
-  width: 720px;
+  width: 768px
   margin-left: 50px;
 
 }
 
 .row {
-width: 700px;
-
+width: 768px;
+}
 }
 
-}
 
-
-@media screen and (max-device-width: 640px) {
+@media screen and (max-width: 640px) {
   
+.wrapper{
+  width: 640px;
+   height:800px;
+
+}
+
 .containera{
-    width: 0px;
+    width: 640px;
 }
 
 .main{
-    height:0px;
-    width:0px;
-    margin-left:50px;
-    margin-right: 50px;
+    height:800px;
+    width:640px;   
 }
 
 header{
-  width: 0px;
-  margin-left: 50px;
+  width: 640px;
+  }
+
+.name{
+  width:640px;
 }
+
  .aboutcontainer{
   margin:10px;
-  width: 100%;
+  width: 640px;
   height: 875px;
   
  }   
 .habout{
-  margin-left: 40px;
+  margin: 10px;
 }
 .jpic{    
-  margin-left:61px;
+  margin:10px;
   height:75%;
   width:75%;
 }
 
 .bio{
-  clear:both;
+
+  
 }
 .connect{
-  margin:52px 40px 40px 75px;
+  margin:10px;
 }
 
 footer{
-  width: 0px;
+  width: 640px;
   margin-left: 50px;
 
+}
+
+.lnk{
+width: 640px;
+}
+.row {
+
+width: 640px;
 }
 
 }
